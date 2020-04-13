@@ -1,0 +1,6 @@
+<h1>Members</h1>
+<ul>
+    {% for key, user in users %}
+        <li>{{ key }} - {{ user.username|upper }}</li>
+    {% endfor %}
+</ul>

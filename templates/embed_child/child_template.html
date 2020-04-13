@@ -1,0 +1,11 @@
+{% set vars = {'foo': 'bar'} %}
+{% set content %}
+    {% embed "embed_child/master_template.html" with vars  %}
+        {% block left_teaser %}
+            {{ parent() }}
+            <br>
+            Some content for the left teaser box
+        {% endblock %}
+    {% endembed %}
+{% endset %}
+{{ content|upper|escape('html') }}

@@ -1,0 +1,9 @@
+{% apply upper %}
+    This text becomes uppercase
+{% endapply %}
+
+{% apply lower|escape('html') %}
+    <strong>SOME TEXT</strong>
+{% endapply %}
+
+{# foo #}

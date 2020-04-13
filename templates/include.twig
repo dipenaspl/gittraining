@@ -1,0 +1,15 @@
+{#
+
+{% include 'apply.html.twig' %}
+
+{% set vars = {'foo': 'bar'} %}
+{% include 'apply.html.twig' with vars %}
+#}
+
+{% include 'sidebar.html' ignore missing %}
+
+{% set vars = {'foo': 'bar'} %}
+{% set content %}
+    {% include 'apply.html.twig' with vars %}
+{% endset %}
+{{ content|upper|escape('html') }}

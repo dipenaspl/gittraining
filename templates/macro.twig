@@ -1,0 +1,22 @@
+{#
+
+{% import "form/field.twig" as forms %}
+<p>{{ forms.input('username') }}</p>
+<p>{{ forms.input('password', null, 'password') }}</p>
+
+#}
+
+{% macro input(name, value, type = "text", size = 20) %}
+    <input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}" />
+{% endmacro %}
+
+{% macro textarea(name, value, rows = 10, cols = 40) %}
+    <textarea name="{{ name }}" rows="{{ rows }}" cols="{{ cols }}">{{ value|e }}</textarea>
+{% endmacro %}
+
+{% import _self as forms %}
+<form action="/page" method="post">
+    <p>{{ forms.input('username') }}</p>
+    <p>{{ forms.input('password', null, 'password') }}</p>
+</form>
+
