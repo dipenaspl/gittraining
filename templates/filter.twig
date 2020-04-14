@@ -1,0 +1,8 @@
+{% set sizes = {xs: 34, s:  36, m:  38, l:  40, xl: 42} %}
+{% for k, v in sizes | filter((v, k) => k != "xl" and v > 38 ) %}
+    {{ k }} = {{ v }}
+{% endfor %}
+
+
+{% set sizes = [34, 36, 38, 40, 42] %}
+{{ sizes|filter(v => v > 38)|join(', ') }}

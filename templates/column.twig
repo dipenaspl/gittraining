@@ -1,0 +1,7 @@
+{% set items = [{ 'fruit' : 'apple'}, {'fruit' : 'orange' }] %}
+
+{% set fruits = items|column('fruit') %}
+
+{% for val in fruits %}
+    {{ val }} 
+{% endfor %}

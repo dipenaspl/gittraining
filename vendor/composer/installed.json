@@ -1,5 +1,316 @@
 [
     {
+        "name": "league/html-to-markdown",
+        "version": "4.9.1",
+        "version_normalized": "4.9.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/html-to-markdown.git",
+            "reference": "1dcd0f85de786f46a7f224a27cc3d709ddd2a68c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/html-to-markdown/zipball/1dcd0f85de786f46a7f224a27cc3d709ddd2a68c",
+            "reference": "1dcd0f85de786f46a7f224a27cc3d709ddd2a68c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-xml": "*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "mikehaertl/php-shellcommand": "~1.1.0",
+            "phpunit/phpunit": "^4.8|^5.7",
+            "scrutinizer/ocular": "~1.1"
+        },
+        "time": "2019-12-28T01:32:28+00:00",
+        "bin": [
+            "bin/html-to-markdown"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.10-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\HTMLToMarkdown\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Colin O'Dell",
+                "email": "colinodell@gmail.com",
+                "homepage": "https://www.colinodell.com",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Nick Cernis",
+                "email": "nick@cern.is",
+                "homepage": "http://modernnerd.net",
+                "role": "Original Author"
+            }
+        ],
+        "description": "An HTML-to-markdown conversion helper for PHP",
+        "homepage": "https://github.com/thephpleague/html-to-markdown",
+        "keywords": [
+            "html",
+            "markdown"
+        ]
+    },
+    {
+        "name": "lorenzo/pinky",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lorenzo/pinky.git",
+            "reference": "2bc1a9d5696d6496df5d5682962929165a823e57"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lorenzo/pinky/zipball/2bc1a9d5696d6496df5d5682962929165a823e57",
+            "reference": "2bc1a9d5696d6496df5d5682962929165a823e57",
+            "shasum": ""
+        },
+        "require": {
+            "ext-xsl": "*",
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7"
+        },
+        "time": "2019-09-16T21:23:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/pinky.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jose Lorenzo Rodriguez",
+                "email": "jose.zap@gmail.com"
+            }
+        ],
+        "description": "A Foundation for Emails (Inky) template transpiler",
+        "keywords": [
+            "email",
+            "foundation",
+            "inky",
+            "template",
+            "zurb"
+        ]
+    },
+    {
+        "name": "symfony/css-selector",
+        "version": "v5.0.7",
+        "version_normalized": "5.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/css-selector.git",
+            "reference": "5f8d5271303dad260692ba73dfa21777d38e124e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/5f8d5271303dad260692ba73dfa21777d38e124e",
+            "reference": "5f8d5271303dad260692ba73dfa21777d38e124e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5"
+        },
+        "time": "2020-03-27T16:56:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\CssSelector\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Jean-François Simon",
+                "email": "jeanfrancois.simon@sensiolabs.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony CssSelector Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/intl",
+        "version": "v5.0.7",
+        "version_normalized": "5.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/intl.git",
+            "reference": "a02d65b026413150223c010db3000028bf9770eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/intl/zipball/a02d65b026413150223c010db3000028bf9770eb",
+            "reference": "a02d65b026413150223c010db3000028bf9770eb",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5",
+            "symfony/polyfill-intl-icu": "~1.0"
+        },
+        "require-dev": {
+            "symfony/filesystem": "^4.4|^5.0"
+        },
+        "suggest": {
+            "ext-intl": "to use the component with locales other than \"en\""
+        },
+        "time": "2020-03-27T16:56:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Intl\\": ""
+            },
+            "classmap": [
+                "Resources/stubs"
+            ],
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bernhard Schussek",
+                "email": "bschussek@gmail.com"
+            },
+            {
+                "name": "Eriksen Costa",
+                "email": "eriksen.costa@infranology.com.br"
+            },
+            {
+                "name": "Igor Wiedler",
+                "email": "igor@wiedler.ch"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "A PHP replacement layer for the C intl extension that includes additional data from the ICU library.",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "i18n",
+            "icu",
+            "internationalization",
+            "intl",
+            "l10n",
+            "localization"
+        ]
+    },
+    {
+        "name": "symfony/mime",
+        "version": "v5.0.7",
+        "version_normalized": "5.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/mime.git",
+            "reference": "481b7d6da88922fb1e0d86a943987722b08f3955"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/mime/zipball/481b7d6da88922fb1e0d86a943987722b08f3955",
+            "reference": "481b7d6da88922fb1e0d86a943987722b08f3955",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5",
+            "symfony/polyfill-intl-idn": "^1.10",
+            "symfony/polyfill-mbstring": "^1.0"
+        },
+        "conflict": {
+            "symfony/mailer": "<4.4"
+        },
+        "require-dev": {
+            "egulias/email-validator": "^2.1.10",
+            "symfony/dependency-injection": "^4.4|^5.0"
+        },
+        "time": "2020-03-27T16:56:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Mime\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "A library to manipulate MIME messages",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "mime",
+            "mime-type"
+        ]
+    },
+    {
         "name": "symfony/polyfill-ctype",
         "version": "v1.15.0",
         "version_normalized": "1.15.0.0",
@@ -57,6 +368,257 @@
             "ctype",
             "polyfill",
             "portable"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-grapheme",
+        "version": "v1.15.0",
+        "version_normalized": "1.15.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+            "reference": "b6786f69dd7b062390582f20520ab4918283217e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b6786f69dd7b062390582f20520ab4918283217e",
+            "reference": "b6786f69dd7b062390582f20520ab4918283217e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-03-09T19:04:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.15-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's grapheme_* functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "grapheme",
+            "intl",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-icu",
+        "version": "v1.15.0",
+        "version_normalized": "1.15.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-icu.git",
+            "reference": "9c281272735eb66476e0fa7381e03fb0d4b60197"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/9c281272735eb66476e0fa7381e03fb0d4b60197",
+            "reference": "9c281272735eb66476e0fa7381e03fb0d4b60197",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "symfony/intl": "~2.3|~3.0|~4.0|~5.0"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-02-27T09:26:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.15-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's ICU-related data and classes",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "icu",
+            "intl",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-idn",
+        "version": "v1.15.0",
+        "version_normalized": "1.15.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-idn.git",
+            "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
+            "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "symfony/polyfill-mbstring": "^1.3",
+            "symfony/polyfill-php72": "^1.10"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-03-09T19:04:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.15-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Intl\\Idn\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Laurent Bassin",
+                "email": "laurent@bassin.info"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "idn",
+            "intl",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-intl-normalizer",
+        "version": "v1.15.0",
+        "version_normalized": "1.15.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+            "reference": "e62715f03f90dd8d2f3eb5daa21b4d19d71aebde"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/e62715f03f90dd8d2f3eb5daa21b4d19d71aebde",
+            "reference": "e62715f03f90dd8d2f3eb5daa21b4d19d71aebde",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-02-27T09:26:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.15-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's Normalizer class and related functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "intl",
+            "normalizer",
+            "polyfill",
+            "portable",
+            "shim"
         ]
     },
     {
@@ -118,6 +680,578 @@
             "polyfill",
             "portable",
             "shim"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php72",
+        "version": "v1.15.0",
+        "version_normalized": "1.15.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php72.git",
+            "reference": "37b0976c78b94856543260ce09b460a7bc852747"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/37b0976c78b94856543260ce09b460a7bc852747",
+            "reference": "37b0976c78b94856543260ce09b460a7bc852747",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2020-02-27T09:26:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.15-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php72\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/string",
+        "version": "v5.0.7",
+        "version_normalized": "5.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/string.git",
+            "reference": "48a2f4b3597514e6c885c0ddb22d3bbdb60517d0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/string/zipball/48a2f4b3597514e6c885c0ddb22d3bbdb60517d0",
+            "reference": "48a2f4b3597514e6c885c0ddb22d3bbdb60517d0",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5",
+            "symfony/polyfill-intl-grapheme": "~1.0",
+            "symfony/polyfill-intl-normalizer": "~1.0",
+            "symfony/polyfill-mbstring": "~1.0",
+            "symfony/translation-contracts": "^1.1|^2"
+        },
+        "time": "2020-03-16T13:02:39+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\String\\": ""
+            },
+            "files": [
+                "Resources/functions.php"
+            ],
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony String component",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "grapheme",
+            "i18n",
+            "string",
+            "unicode",
+            "utf-8",
+            "utf8"
+        ]
+    },
+    {
+        "name": "symfony/translation-contracts",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/translation-contracts.git",
+            "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/8cc682ac458d75557203b2f2f14b0b92e1c744ed",
+            "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5"
+        },
+        "suggest": {
+            "symfony/translation-implementation": ""
+        },
+        "time": "2019-11-18T17:27:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Contracts\\Translation\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Generic abstractions related to translation",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "abstractions",
+            "contracts",
+            "decoupling",
+            "interfaces",
+            "interoperability",
+            "standards"
+        ]
+    },
+    {
+        "name": "tijsverkoyen/css-to-inline-styles",
+        "version": "2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
+            "reference": "dda2ee426acd6d801d5b7fd1001cde9b5f790e15"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/dda2ee426acd6d801d5b7fd1001cde9b5f790e15",
+            "reference": "dda2ee426acd6d801d5b7fd1001cde9b5f790e15",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-libxml": "*",
+            "php": "^5.5 || ^7.0",
+            "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+        },
+        "time": "2019-10-24T08:53:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TijsVerkoyen\\CssToInlineStyles\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Tijs Verkoyen",
+                "email": "css_to_inline_styles@verkoyen.eu",
+                "role": "Developer"
+            }
+        ],
+        "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
+        "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
+    },
+    {
+        "name": "twig/cssinliner-extra",
+        "version": "v3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/cssinliner-extra.git",
+            "reference": "fe2f378b0b2987564fbef9c09a6119cd92e7764e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/cssinliner-extra/zipball/fe2f378b0b2987564fbef9c09a6119cd92e7764e",
+            "reference": "fe2f378b0b2987564fbef9c09a6119cd92e7764e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1.3",
+            "tijsverkoyen/css-to-inline-styles": "^2.0",
+            "twig/twig": "^2.4|^3.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^4.4|^5.0"
+        },
+        "time": "2020-01-01T17:10:47+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.12-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twig\\Extra\\CssInliner\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "A Twig extension to allow inlining CSS",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "css",
+            "inlining",
+            "twig"
+        ]
+    },
+    {
+        "name": "twig/html-extra",
+        "version": "v3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/html-extra.git",
+            "reference": "0a0340aaba8c09e1c899d81fce6d45a1d6e448d5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/html-extra/zipball/0a0340aaba8c09e1c899d81fce6d45a1d6e448d5",
+            "reference": "0a0340aaba8c09e1c899d81fce6d45a1d6e448d5",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1.3",
+            "symfony/mime": "^4.3|^5.0",
+            "twig/twig": "^2.4|^3.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^4.4|^5.0"
+        },
+        "time": "2020-01-01T17:11:09+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twig\\Extra\\Html\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "A Twig extension for HTML",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "html",
+            "twig"
+        ]
+    },
+    {
+        "name": "twig/inky-extra",
+        "version": "v3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/inky-extra.git",
+            "reference": "1723fbcf496bd53bdbd5fa3cc819dd4574a2f967"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/inky-extra/zipball/1723fbcf496bd53bdbd5fa3cc819dd4574a2f967",
+            "reference": "1723fbcf496bd53bdbd5fa3cc819dd4574a2f967",
+            "shasum": ""
+        },
+        "require": {
+            "lorenzo/pinky": "^1.0.5",
+            "php": "^7.1.3",
+            "twig/twig": "^2.4|^3.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^4.4|^5.0"
+        },
+        "time": "2020-01-01T17:10:47+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.12-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twig\\Extra\\Inky\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "A Twig extension for the inky email templating engine",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "email",
+            "emails",
+            "inky",
+            "twig"
+        ]
+    },
+    {
+        "name": "twig/intl-extra",
+        "version": "v3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/intl-extra.git",
+            "reference": "55d68a5836f40d62695488b4bdbc71fa71f52574"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/intl-extra/zipball/55d68a5836f40d62695488b4bdbc71fa71f52574",
+            "reference": "55d68a5836f40d62695488b4bdbc71fa71f52574",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1.3",
+            "symfony/intl": "^4.3|^5.0",
+            "twig/twig": "^2.4|^3.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^4.4|^5.0"
+        },
+        "time": "2020-02-11T05:45:44+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twig\\Extra\\Intl\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "A Twig extension for Intl",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "intl",
+            "twig"
+        ]
+    },
+    {
+        "name": "twig/markdown-extra",
+        "version": "v3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/markdown-extra.git",
+            "reference": "c9d09a12024febcb6976886794d095a31f1ce6fa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/markdown-extra/zipball/c9d09a12024febcb6976886794d095a31f1ce6fa",
+            "reference": "c9d09a12024febcb6976886794d095a31f1ce6fa",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1.3",
+            "twig/twig": "^2.4|^3.0"
+        },
+        "require-dev": {
+            "erusev/parsedown": "^1.7",
+            "league/commonmark": "^1.0",
+            "league/html-to-markdown": "^4.8",
+            "michelf/php-markdown": "^1.8",
+            "symfony/phpunit-bridge": "^4.4|^5.0"
+        },
+        "time": "2020-01-01T17:11:09+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twig\\Extra\\Markdown\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "A Twig extension for Markdown",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "html",
+            "markdown",
+            "twig"
+        ]
+    },
+    {
+        "name": "twig/string-extra",
+        "version": "v3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/string-extra.git",
+            "reference": "9905d4410f1214df183fbb1a5e7848c560fdd551"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/string-extra/zipball/9905d4410f1214df183fbb1a5e7848c560fdd551",
+            "reference": "9905d4410f1214df183fbb1a5e7848c560fdd551",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5",
+            "symfony/string": "^5.0",
+            "twig/twig": "^2.4|^3.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^4.4|^5.0"
+        },
+        "time": "2020-02-06T15:26:33+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.12-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twig\\Extra\\String\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "A Twig extension for Symfony String",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "html",
+            "string",
+            "twig",
+            "unicode"
         ]
     },
     {
