@@ -1,0 +1,4 @@
+{% set isError = true %}
+<p class="{{ html_classes('a-class', 'another-class', {
+    'errored': isError,
+}) }}">How are you doing?</p>

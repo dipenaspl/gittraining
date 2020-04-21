@@ -1,6 +1,16 @@
 <h1>Members</h1>
-<ul>
-    {% for key, user in users %}
-        <li>{{ key }} - {{ user.username|upper }}</li>
-    {% endfor %}
-</ul>
+<table>
+<tr>
+    <th>ID</th>
+    <th>UserName</th>
+    <th>Password</th>
+</tr>
+{% for key, user in member.info %}
+    <tr>
+        <td>{{ key }}</td>
+        <td>{{ user.username|upper }}</td>
+        <td>{{ user.pass }}</td>
+    </tr>
+    
+{% endfor %}
+</table>

@@ -13,11 +13,12 @@ use Twig\Extra\String\StringExtension;
 $loader = new \Twig\Loader\FilesystemLoader(__DIR__ );
 
 // Instantiate our Twig
-$twig = new \Twig\Environment($loader);
+$twig = new \Twig\Environment($loader, ['debug' => true]);
 $twig->addExtension(new IntlExtension());
 $twig->addExtension(new HtmlExtension());
 $twig->addExtension(new MarkdownExtension());
 $twig->addExtension(new CssInlinerExtension());
 $twig->addExtension(new InkyExtension());
 $twig->addExtension(new StringExtension());
-
+$twig->addExtension(new \Twig\Extension\DebugExtension());
+$twig->addExtension(new \Twig\Extension\StringLoaderExtension());
